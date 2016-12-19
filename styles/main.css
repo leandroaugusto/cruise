@@ -1,0 +1,61 @@
+/* Styles */
+@import 'reset.css';
+@import 'font.css';
+
+/* Default */
+	.center {
+		width: 100%;
+		display: block;
+		max-width: 1780px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+/* Header */
+	header {
+		width: 100%;
+		text-align: center;
+		padding: 2rem 0;
+	}
+
+	header .center {
+		display: table;
+	}
+
+	header h1, header nav, header .follow {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	header h1 {
+		text-align: left;
+		width: 18rem;
+	}
+
+	header nav {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	header nav li {
+		display: inline;
+	}
+
+	header .follow {
+		text-align: right;
+		width: 12rem;
+	}
+
+/* Medias */
+	/* Mobile */
+	@media only screen and (max-width: 768px) {}
+
+	/* Tablet */
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+	/* Desktop */
+	@media only screen and (max-width: 1780px) {
+		.center {
+			padding: 0 1rem;
+		}
+	}

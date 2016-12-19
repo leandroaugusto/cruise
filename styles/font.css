@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "corbel-bold";
+    src: url("fonts/Calibri.eot?") format("eot"),
+    url("fonts/Calibri.woff") format("woff"),
+    url("fonts/Calibri.ttf") format("truetype"),
+    url("fonts/Calibri.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
