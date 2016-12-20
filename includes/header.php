@@ -29,26 +29,26 @@
 	<header>
 		<div class="center">
 			<h1>
-				<a href="/">
+				<a href="/index.php">
 					<img src="images/shared/logo.png" alt="Logo Cruise Oficial" title="Logo Cruise Oficial">
 				</a>
 			</h1>
 			<nav>
 				<ul>
 					<li>
-						<a data-page="sobre" title="Sobre a Cruise" href="sobre/index.php">Sobre a Cruise</a>
+						<a data-page="sobre" title="Sobre a Cruise" href="sobre.php">Sobre a Cruise</a>
 					</li>
 					<li>
-						<a data-page="lookbook" title="Look Book" href="lookbook/index.php">Look Book</a>
+						<a data-page="lookbook" title="Look Book" href="lookbook.php">Look Book</a>
 					</li>
 					<li>
-						<a data-page="encontrar" title="Onde Encontrar" href="encontrar/index.php">Onde Encontrar</a>
+						<a data-page="encontrar" title="Onde Encontrar" href="encontrar.php">Onde Encontrar</a>
 					</li>
 					<li>
-						<a data-page="press" title="Press" href="press/index.php">Press</a>
+						<a data-page="press" title="Press" href="press.php">Press</a>
 					</li>
 					<li>
-						<a data-page="contato" title="Contato" href="contato/index.php">Contato</a>
+						<a data-page="contato" title="Contato" href="contato.php">Contato</a>
 					</li>
 				</ul>
 			</nav>
