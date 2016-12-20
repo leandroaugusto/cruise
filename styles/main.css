@@ -112,7 +112,7 @@
 		margin-left: 2%;
 	}
 
-	.container .side .image-full {
+	.container .image-full {
 		width: 100%;
 	}
 
@@ -139,6 +139,7 @@
 	/* Desktop */
 	@media only screen and (max-width: 1780px) {
 		.center {
-			padding: 0 1rem;
+			/*padding: 0 1rem;*/
+			max-width: 95%;
 		}
 	}
