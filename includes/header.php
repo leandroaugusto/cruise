@@ -35,6 +35,11 @@
 				</a>
 			</h1>
 			<nav>
+				<div id="nav-icon1" class="mobile-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 				<ul>
 					<li>
 						<a data-page="sobre" title="Sobre a Cruise" href="sobre.php">Sobre a Cruise</a>

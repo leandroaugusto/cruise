@@ -2,14 +2,6 @@
 
 $(document).ready(function(){
 
-	// $('body').flowtype({ 
-	// 	minimum   : 768,
-	// 	maximum   : 1420,
-	// 	minFont   : 12,
-	// 	maxFont   : 16,
-	// 	fontRatio : 36
-	// });
-
 	// Show current page menu
 	var currPage = $('section').data('page');
 
@@ -30,6 +22,7 @@ $(document).ready(function(){
 		var img = $(this).attr('data-image');
 
 		modal.fadeIn();
+		mySwiper.update();
 		mySwiper.slideTo(img);
 
 		$('html, body').animate({
@@ -39,6 +32,11 @@ $(document).ready(function(){
 
 	modal.find('.close').on('click', function() {
 		modal.fadeOut();
-	})
+	});
+
+	$('#nav-icon1').on('click', function() {
+		$(this).toggleClass('open');
+		$('header ul, .follow').toggleClass('open');
+	});
 
 })
