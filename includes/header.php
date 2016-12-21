@@ -23,6 +23,7 @@
 
 	<link rel="canonical" href="" />
 	<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+	<link rel="stylesheet" href="styles/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
