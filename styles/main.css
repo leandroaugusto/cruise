@@ -20,6 +20,9 @@
 	img {
 		display: block;
 	}
+	b {
+		font-weight: bold;
+	}
 	a {
 		-webkit-transition: 0.5s;
 		-moz-transition: 0.5s;
@@ -223,13 +226,17 @@
 		cursor: pointer;
 	}
 
+	.container .success-message {
+		margin-top: 1rem;
+	}
+
 /* Gallery */
 	.container .swiper-buttons {
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 100%;
-		width: 3.5rem;
-		height: 4rem;
+		width: 3rem;
+		height: 3.5rem;
 	}
 	.container .swiper-button-prev {
 		background-image: url(../images/shared/arrow-left.png);
@@ -238,15 +245,23 @@
 		background-image: url(../images/shared/arro-right.png);
 	}
 	.container .gallery-view {
-		width: 90%;
+		width: 88%;
 		margin: 3.6rem auto 6rem;
 		position: relative;
 	}
+	.container .gallery-view .image-full {
+		max-width: 55%;
+		margin: 0 auto;
+	}
+	.container .gallery-view h3 {
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
 	.container .gallery-view .swiper-button-prev {
-		left: -4.7rem;
+		left: -3.6rem;
 	}
 	.container .gallery-view .swiper-button-next {
-		right: -4.7rem;
+		right: -3.6rem;
 	}
 
 /* Modal */
@@ -269,7 +284,7 @@
 		width: 100%;
 	}
 	.modal .swiper-buttons {
-		top: 41rem;
+		top: 50%;
 	}
 	.modal .swiper-button-prev {
 		left: -4.7rem;
@@ -280,15 +295,15 @@
 	.modal .close {
 		color: #fff;
 		position: absolute;
-		right: 1.6rem;
-		top: 1.6rem;
+		right: 1.3rem;
+		top: 1.3rem;
 		cursor: pointer;
 		background: url(../images/shared/close.png) center no-repeat;
 		background-size: 100%;
 		display: block;
 		text-indent: -9999px;
-		width: 4rem;
-		height: 4rem;
+		width: 2.8rem;
+		height: 3.1rem;
 		z-index: 10;
 	}
 
@@ -317,9 +332,6 @@
 		}
 		.container article + article {
 			margin-top: 2rem
-		}
-		.container .vertical {
-			padding-top: 0;
 		}
 		.container h2 {
 			width: 8rem;
@@ -367,9 +379,6 @@
 
 	/* Tablet */
 	@media only screen and (min-width: 768px) and (max-width: 1024px) {
-		.container .vertical {
-			padding-top: 0;
-		}
 		.container .swiper-buttons {
 			width: 2rem;
 			height: 2rem;
@@ -379,9 +388,6 @@
 			top: 1rem;
 			width: 2.2rem;
 			height: 2.5rem;
-		}
-		.modal .swiper-buttons {
-			top: 23rem;
 		}
 		.container .swiper-buttons {
 		    height: 2.4rem;
@@ -506,6 +512,10 @@
 			width: 100%;
 			color: #ffffff;
 			text-align: center;
+		}
+
+		.container .vertical {
+			padding-top: 0;
 		}
 	}
 	@media only screen and (max-width: 1780px) {

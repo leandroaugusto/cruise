@@ -12,6 +12,7 @@ $(document).ready(function(){
 	var modal = $('.modal');
 	var mySwiper = new Swiper('.swiper-container', {
 	    speed: 400,
+	    autoHeight: true,
 	    nextButton: '.swiper-button-next',
 	    prevButton: '.swiper-button-prev'
 	});

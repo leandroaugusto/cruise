@@ -58,6 +58,6 @@
 					</li>
 				</ul>
 			</nav>
-			<a class="follow" href="#">Follow us on Instagram</a>
+			<a class="follow" href="https://www.instagram.com/cruise_oficial/" target="_blank">Follow us on Instagram</a>
 		</div>
 	</header>
