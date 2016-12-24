@@ -4,6 +4,9 @@
 
 /* Default */
 	/* color_default: #91b1b8 */
+	html {
+		font-size: 14px;
+	}
 	.center {
 		width: 100%;
 		display: block;
@@ -195,7 +198,7 @@
 		width: 100%;
 		display: block;
 		font-family: "calibri";
-		font-size: 2.25rem;
+		font-size: 2rem;
 		padding: 0.2rem 0.6rem;
 		color: #ffffff;
 	}
@@ -219,7 +222,7 @@
 
 	.container form [type=submit] {
 		background-color: transparent;
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		text-align: left;
 		margin-top: 0.5rem;
 		width: auto;
@@ -451,11 +454,11 @@
 		}
 
 		header .mobile-menu span:nth-child(2) {
-			top: 0.6rem;
+			top: 0.7rem;
 		}
 
 		header .mobile-menu span:nth-child(3) {
-			top: 1.3rem;
+			top: 1.4rem;
 		}
 
 		header .mobile-menu.open span:nth-child(1) {

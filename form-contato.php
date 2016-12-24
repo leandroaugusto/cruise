@@ -2,24 +2,26 @@
     if (isset($_POST["enviar"])) {
         $date = date("d/m/Y h:i");
 
+        $to = 'showroom@cruiseoficial.com.br';
+        $from = 'showroom@cruiseoficial.com.br';
+
         $nome = $_POST['nome'];
         $email = $_POST['email'];
         $assunto = $_POST['assunto'];
         $textodamensagem = $_POST['mensagem'];
 
-        $headers = "From: Contato <leandroacosta2008@hotmail.com>"."\n"; // remetente //showroom@cruiseoficial.com.br
+        $headers = "From: Contato" . $from . "\n"; // remetente
+        $headers .= "Return-Path: Contato" . $to . "\n"; // return-path
 
-        $configuracao_da_mensagem_original="
-
+        $body = "
             ENVIADO POR:\n
-            Nome: $nome\n
-            Email: $email\n
-            Mensagem: $textodamensagem\n
-            ENVIADO EM: $date
+            Nome:" . $nome . "\n
+            Email: " . $email . "\n
+            Mensagem:" . $textodamensagem . "\n
+            ENVIADO EM:" . $date
+        ;
 
-        ";
-
-        @mail('leandroacosta2008@hotmail.com', $assunto, $configuracao_da_mensagem_original, $headers);
+        mail($to, $assunto, $body, $headers);
     }
 ?>
 

@@ -1,0 +1,18 @@
+[15-Oct-2015 16:10:08 UTC] PHP Fatal error:  Cannot redeclare class nggImage in /home/cruisefa/public_html/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/lib/image.php on line 79
+[15-Oct-2015 16:10:26 UTC] PHP Fatal error:  Cannot redeclare class nggImage in /home/cruisefa/public_html/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/lib/image.php on line 79
+[15-Oct-2015 16:10:39 UTC] PHP Fatal error:  Cannot redeclare class nggImage in /home/cruisefa/public_html/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/lib/image.php on line 79
+[15-Oct-2015 18:38:40 UTC] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/cruisefa/public_html/wp-content/themes/krypton_wp/page-galleries.php on line 106
+[15-Oct-2015 18:41:06 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/cruisefa/public_html/wp-content/themes/krypton_wp/page-galleries.php on line 108
+[20-Oct-2015 17:58:52 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/cruisefa/public_html/wp-content/themes/krypton_wp/acps-results_loop.php on line 10
+[20-Oct-2015 18:03:53 UTC] PHP Fatal error:  Cannot use object of type WP_Query as array in /home/cruisefa/public_html/wp-content/themes/krypton_wp/acps-results_loop.php on line 9
+[20-Oct-2015 18:11:03 UTC] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home/cruisefa/public_html/wp-content/themes/krypton_wp/acps-results_loop.php on line 75
+[20-Oct-2015 18:12:29 UTC] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/cruisefa/public_html/wp-content/themes/krypton_wp/acps-results_loop.php on line 73
+[20-Oct-2015 19:11:46 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /home/cruisefa/public_html/wp-content/plugins/advanced-custom-post-search/core/shortcodes/acps_shortcodes.php on line 280
+[20-Oct-2015 19:11:46 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /home/cruisefa/public_html/wp-content/plugins/advanced-custom-post-search/core/shortcodes/acps_shortcodes.php on line 280
+[20-Oct-2015 19:11:46 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /home/cruisefa/public_html/wp-content/plugins/advanced-custom-post-search/core/shortcodes/acps_shortcodes.php on line 280
+[20-Oct-2015 19:11:46 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /home/cruisefa/public_html/wp-content/plugins/advanced-custom-post-search/core/shortcodes/acps_shortcodes.php on line 280
+[20-Oct-2015 19:11:46 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /home/cruisefa/public_html/wp-content/plugins/advanced-custom-post-search/core/shortcodes/acps_shortcodes.php on line 280
+[20-Oct-2015 19:28:08 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/cruisefa/public_html/wp-content/plugins/advanced-custom-post-search/core/shortcodes/acps_shortcodes.php on line 289
+[20-Oct-2015 19:28:54 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/cruisefa/public_html/wp-content/plugins/advanced-custom-post-search/core/shortcodes/acps_shortcodes.php on line 289
+[31-Oct-2016 18:06:52 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 78 bytes) in /home/cruiseoficial/public_html/wp-includes/pomo/mo.php on line 268
+[31-Oct-2016 18:07:29 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 90 bytes) in /home/cruiseoficial/public_html/wp-includes/pomo/mo.php on line 268

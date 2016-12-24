@@ -17,7 +17,7 @@
 	    			<img src="images/press/press-bazaar-kids.jpg" class="image-full" alt="Bazaar Kids">
 		    	</div>
 		    	<div class="swiper-slide">
-		    		<h3>Bazzar - Cruise</h3>
+		    		<h3>Bazaar - Cruise</h3>
 	    			<img src="images/press/press-bazzar-cruise.png" class="image-full" alt="Bazzar - Cruise">
 		    	</div>
 		    	<div class="swiper-slide">
