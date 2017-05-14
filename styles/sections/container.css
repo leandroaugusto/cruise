@@ -1,0 +1,77 @@
+/* Container */
+	.container.center {
+		width: 100%;
+		overflow: hidden;
+		margin-top: 1rem;
+		background-color: #91b1b8;
+	}
+
+	.container.inner {
+		padding: 3rem 3rem 0;
+	}
+
+	.container.find {
+		padding: 3rem 3rem;
+		margin-bottom: 3rem;
+	}
+
+	.container.contact {
+		padding: 3rem 0 0 3rem;
+	}
+
+	.container .col-25 {
+		width: 25%;
+	}
+	.container .col-30 {
+		width: 28%;
+	}
+	.container .col-50 {
+		width: 48%;
+	}
+	.container .col-70 {
+		width: 68%;
+	}
+
+	.container .col-50 + .col-50,
+	.container .col-70 + .col-30 {
+		margin-left: 2%;
+	}
+
+	.container .image-full {
+		width: 100%;
+	}
+
+	.container h2 {
+		font-size: 2.25rem;
+		color: #ffffff;
+	}
+
+	.container h3 {
+		font-size: 1.5rem;
+		color: #ffffff;
+	}
+
+	.container a {
+		color: #ffffff;
+	}
+
+	.container a:hover {
+		color: #000000;
+	}
+
+	.container p {
+		color: #ffffff;
+		font-size: 1.25rem;
+		margin-bottom: 2rem;
+		letter-spacing: 0.09rem;
+		line-height: 1.6rem;
+	}
+
+	.container .find-places {
+		margin-bottom: 2.4rem;
+		line-height: 2.2rem;
+	}
+
+	.container .vertical {
+		padding-top: 10rem;
+	}

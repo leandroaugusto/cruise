@@ -1,0 +1,64 @@
+/* Header */
+	header {
+		width: 100%;
+		text-align: center;
+		padding: 2rem 0;
+	}
+
+	header .center {
+		display: table;
+	}
+
+	header .mobile-menu {
+		display: none;
+	}
+
+	header h1, header nav, header .follow {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	header h1 {
+		text-align: left;
+		width: 18rem;
+	}
+
+	header nav {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	header nav li {
+		display: inline;
+	}
+
+	header nav li + li {
+		margin-left: 3rem;
+	}
+
+	header nav a {
+		font-size: 1.25rem;
+		text-transform: uppercase;
+	}
+
+	header a.active, header a:hover {
+		color: #91b1b8;
+	}
+
+	header .follow {
+		text-align: right;
+		width: 16rem;
+		text-transform: uppercase;
+		font-size: 1rem;
+	}
+
+	header .follow:after {
+		content: '';
+		margin-left: 0.5rem;
+		background: url(../../images/shared/insta.png) center no-repeat;
+		background-size: contain;
+		display: inline-block;
+		vertical-align: middle;
+		width: 2.5rem;
+		height: 2.5rem;
+	}

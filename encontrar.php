@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
-<section data-page="encontrar" class="container inner center">
+<section data-page="encontrar" class="container find center">
 	<article class="left col-70">
 		<img src="images/encontrar/cruise-encontrar.jpg" class="image-full" alt="Cruise - Onde encontrar">
 	</article>

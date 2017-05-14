@@ -1,0 +1,68 @@
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  header h1 {
+    width: 10rem;
+  }
+  header h1 a, header h1 img {
+    width: 100%;
+    display: block;
+  }
+  .container .col-25,
+  .container .col-30,
+  .container .col-50,
+  .container .col-70 {
+    width: 100%;
+  }
+  .container .col-50 + .col-50,
+  .container .col-70 + .col-30 {
+    margin-left: 2%;
+  }
+  .container.contact, .container.inner {
+    padding: 1rem;
+  }
+  .container article + article {
+    margin-top: 2rem
+  }
+  .container h2 {
+    width: 8rem;
+  }
+  .container .find-places h2 {
+    width: 100%;
+  }
+  .container h2 img {
+    width: 100%;
+  }
+  .container form {
+    margin-top: 2rem;
+  }
+  .container form input {
+    margin-bottom: 1rem;
+  }
+  .container form input, .container form textarea {
+    font-size: 1.6rem;
+  }
+
+  .container h2 {
+    font-size: 1.6rem;
+  }
+  .container h3 {
+    font-size: 1rem;
+  }
+  .container .gallery-view {
+    margin: 2rem auto;
+  }
+
+  /* Modal */
+  .modal .modal-content {
+    width: 92%;
+  }
+  .modal .close {
+    right: 1rem;
+    top: 1rem;
+    width: 2rem;
+    height: 2.2rem;
+  }
+  .container .swiper-buttons {
+    display: none;
+  }
+}

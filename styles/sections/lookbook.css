@@ -1,0 +1,90 @@
+/* Gallery */
+  .container .gallery-item {
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+  }
+  .container .gallery-item img {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 50%;
+    margin-left: -120%;
+  }
+
+	.container .swiper-buttons {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+		width: 3rem;
+		height: 3.5rem;
+	}
+	.container .swiper-button-prev {
+		background-image: url(../../images/shared/arrow-left.png);
+	}
+	.container .swiper-button-next {
+		background-image: url(../../images/shared/arro-right.png);
+	}
+	.container .gallery-view {
+		width: 88%;
+		margin: 3.6rem auto 6rem;
+		position: relative;
+	}
+	.container .gallery-view .image-full {
+		max-width: 55%;
+		margin: 0 auto;
+	}
+	.container .gallery-view h3 {
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+	.container .gallery-view .swiper-button-prev {
+		left: -3.6rem;
+	}
+	.container .gallery-view .swiper-button-next {
+		right: -3.6rem;
+	}
+
+/* Modal */
+	.modal {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		background-color: rgba(145,177,184,0.76);
+	}
+	.modal .modal-content {
+		width: 50%;
+		position: relative;
+		margin: 0 auto;
+	}
+	.modal .swiper-container img {
+		width: 100%;
+	}
+	.modal .swiper-buttons {
+		top: 50%;
+	}
+	.modal .swiper-button-prev {
+		left: -4.7rem;
+	}
+	.modal .swiper-button-next {
+		right: -4.7rem;
+	}
+	.modal .close {
+		color: #fff;
+		position: absolute;
+		right: 1.3rem;
+		top: 1.3rem;
+		cursor: pointer;
+		background: url(../../images/shared/close.png) center no-repeat;
+		background-size: 100%;
+		display: block;
+		text-indent: -9999px;
+		width: 2.8rem;
+		height: 3.1rem;
+		z-index: 10;
+	}

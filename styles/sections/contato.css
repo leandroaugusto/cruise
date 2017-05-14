@@ -1,0 +1,46 @@
+/* Contato */
+	.container form {
+		margin-top: 3rem;
+		width: 100%;
+	}
+
+	.container form input,
+	.container form textarea {
+		border: 0;
+		width: 100%;
+		display: block;
+		font-family: "calibri";
+		font-size: 2rem;
+		padding: 0.2rem 0.6rem;
+		color: #ffffff;
+	}
+
+	.container form .bg-lighten {
+		background-color: #c6d7da;
+	}
+
+	.container form .bg-darken {
+		background-color: #b0c7cc;
+	}
+
+	.container form input {
+		margin-bottom: 2rem;
+	}
+
+	.container form textarea {
+		resize: vertical;
+		min-height: 16rem;
+	}
+
+	.container form [type=submit] {
+		background-color: transparent;
+		font-size: 1.5rem;
+		text-align: left;
+		margin-top: 0.5rem;
+		width: auto;
+		cursor: pointer;
+	}
+
+	.container .success-message {
+		margin-top: 1rem;
+	}

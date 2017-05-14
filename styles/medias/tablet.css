@@ -1,0 +1,25 @@
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container .swiper-buttons {
+    width: 2rem;
+    height: 2rem;
+  }
+  .modal .close {
+    right: 1rem;
+    top: 1rem;
+    width: 2.2rem;
+    height: 2.5rem;
+  }
+  .container .swiper-buttons {
+      height: 2.4rem;
+  }
+  .container h2 {
+    font-size: 1.8rem;
+  }
+  .container h3 {
+    font-size: 1.2rem;
+  }
+  .container .gallery-view {
+    width: 80%;
+  }
+}
