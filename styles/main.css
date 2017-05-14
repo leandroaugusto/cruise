@@ -18,10 +18,6 @@
 		float: left;
 	}
 	body {
-		background-repeat: repeat-y;
-		background-size: 100%;
-		background-position: center top;
-		background-image: url(../images/shared/bg.jpg);
 		font-family: 'calibri';
 	}
 	img {
