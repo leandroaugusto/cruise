@@ -7,6 +7,13 @@
     width: 100%;
     display: block;
   }
+  .container .gallery-item {
+    text-align: center;
+  }
+  .container .gallery-item img {
+    position: relative;
+    display: inline-block;
+  }
   .container .col-25,
   .container .col-30,
   .container .col-50,
