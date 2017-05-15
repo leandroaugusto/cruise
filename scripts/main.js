@@ -3,7 +3,8 @@
 $(document).ready(function(){
 
 	// Show current page menu
-	var currPage = $('section').data('page');
+	var currPage = $('section').data('page'),
+			setAutoHeight = currPage === 'press';
 
 	$('header a[data-page='+currPage+']').addClass('active');
 
@@ -12,7 +13,7 @@ $(document).ready(function(){
 	var modal = $('.modal');
 	var mySwiper = new Swiper('.swiper-container', {
 	    speed: 400,
-	    autoHeight: true,
+	    autoHeight: setAutoHeight,
 	    nextButton: '.swiper-button-next',
 	    prevButton: '.swiper-button-prev'
 	});

@@ -56,8 +56,18 @@
 		position: relative;
 		margin: 0 auto;
 	}
+  .modal .swiper-container {
+    height: 950px;
+  }
+  .modal .swiper-container .swiper-slide {
+    overflow: hidden;
+  }
 	.modal .swiper-container img {
-		width: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
 	}
 	.modal .swiper-buttons {
 		top: 50%;
