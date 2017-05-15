@@ -11,6 +11,10 @@
 			<h3>1º andar tel: (11) 3198 9376</h3>
 		</div>
 		<div class="find-places">
+			<h2>Shopping Iguatemi</h2>
+			<h3>3º andar tel: (11) 3031 1849</h3>
+		</div>
+		<div class="find-places">
 			<h2>
 				<a href="http://gallerist.com.br" target="_blank">Gallerist.com.br</a>
 			</h2>
@@ -19,10 +23,6 @@
 			<h2>
 				<a href="http://shop2gether.com.br" target="_blank">Shop2gether.com.br</a>
 			</h2>
-		</div>
-		<div class="find-places">
-			<h2>Iguatemi</h2>
-			<h3>3º andar tel: (11) 3031 1849</h3>
 		</div>
 	</article>
 </section>

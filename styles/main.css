@@ -9,8 +9,8 @@
 @import 'sections/contato.css';
 
 /* Medias */
-@import 'medias/tablet.css';
 @import 'medias/mobile.css';
+@import 'medias/tablet.css';
 @import 'medias/desktop.css';
 
 /* Default */

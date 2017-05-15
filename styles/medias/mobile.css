@@ -1,5 +1,9 @@
 /* Mobile */
 @media only screen and (max-width: 768px) {
+  body {
+		background-repeat: no-repeat !important;
+		background-position: center 50px !important;
+	}
   header h1 {
     width: 10rem;
   }
@@ -8,11 +12,7 @@
     display: block;
   }
   .container .gallery-item {
-    text-align: center;
-  }
-  .container .gallery-item img {
-    position: relative;
-    display: inline-block;
+    height: 400px;
   }
   .container .col-25,
   .container .col-30,

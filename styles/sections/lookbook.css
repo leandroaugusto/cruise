@@ -1,18 +1,12 @@
 /* Gallery */
   .container .gallery-item {
-    height: 720px;
+    height: 500px;
     position: relative;
     overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .container .gallery-item img {
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    top: 0;
-    left: 50%;
-    margin-left: -120%;
-  }
-
 	.container .swiper-buttons {
 		background-repeat: no-repeat;
 		background-position: center;
