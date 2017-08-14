@@ -39,10 +39,11 @@
 	header nav a {
 		font-size: 1.25rem;
 		text-transform: uppercase;
+		color: #ffffff;
 	}
 
 	header a.active, header a:hover {
-		color: #91b1b8;
+		color: #81b3ba;
 	}
 
 	header .follow {
@@ -50,6 +51,7 @@
 		width: 16rem;
 		text-transform: uppercase;
 		font-size: 1rem;
+		color: #ffffff;
 	}
 
 	header .follow:after {

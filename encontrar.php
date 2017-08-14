@@ -24,6 +24,16 @@
 				<a href="http://shop2gether.com.br" target="_blank">Shop2gether.com.br</a>
 			</h2>
 		</div>
+		<div class="find-places">
+			<h2>
+				<a href="http://www.oqvestir.com.br" target="_blank">OQ Vestir</a>
+			</h2>
+		</div>
+		<div class="find-places">
+			<h2>
+				<a href="http://www.stylemarket.com.br" target="_blank">Style Market</a>
+			</h2>
+		</div>
 	</article>
 </section>
 

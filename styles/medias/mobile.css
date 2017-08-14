@@ -1,9 +1,5 @@
 /* Mobile */
 @media only screen and (max-width: 768px) {
-  body {
-		background-repeat: no-repeat !important;
-		background-position: center 50px !important;
-	}
   header h1 {
     width: 10rem;
   }

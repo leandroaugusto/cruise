@@ -17,6 +17,7 @@
 	/* color_default: #91b1b8 */
 	html {
 		font-size: 14px;
+		min-height: 100%;
 	}
 	.center {
 		width: 100%;
@@ -28,11 +29,12 @@
 		float: left;
 	}
 	body {
-		background-repeat: repeat-y;
-		background-size: 100%;
-		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 		background-image: url(../images/shared/bg.jpg);
 		font-family: 'calibri';
+		min-height: 100%;
 	}
 	img {
 		display: block;
