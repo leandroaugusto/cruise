@@ -52,12 +52,12 @@
 		background-color: rgba(129,179,186,0.76);
 	}
 	.modal .modal-content {
-		width: 50%;
+		width: 70%;
 		position: relative;
 		margin: 0 auto;
 	}
   .modal .swiper-container {
-    height: 950px;
+    height: 980px;
   }
   .modal .swiper-container .swiper-slide {
     overflow: hidden;

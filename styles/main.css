@@ -31,7 +31,7 @@
 	body {
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center;
+		background-position: center top;
 		background-image: url(../images/shared/bg.jpg);
 		font-family: 'calibri';
 		min-height: 100%;
