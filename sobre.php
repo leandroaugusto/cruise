@@ -12,14 +12,6 @@
 			<b>Imprensa</b><br>
 			<span>Index- Estratégias de Comunicação</span>
 		</p>
-		<p>
-			<span>João Corazza</span><br>
-			<a href="mailto:joao@indexassessoria.com.br">joao@indexassessoria.com.br</a>
-		</p>
-		<p>
-			<span>Julia Staut</span><br>
-			<a href="mailto:juliastaut@indexassessoria.com.br">juliastaut@indexassessoria.com.br</a>
-		</p>
 	</article>
 </section>
 

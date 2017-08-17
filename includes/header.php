@@ -51,9 +51,6 @@
 						<a data-page="encontrar" title="Onde Encontrar" href="encontrar.php">Onde Encontrar</a>
 					</li>
 					<li>
-						<a data-page="press" title="Press" href="press.php">Press</a>
-					</li>
-					<li>
 						<a data-page="contato" title="Contato" href="contato.php">Contato</a>
 					</li>
 				</ul>
